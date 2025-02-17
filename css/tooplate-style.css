@@ -52,12 +52,13 @@ a {
 }
 /* Start Quyen's part */
 a:hover {
-  color: black !important;
+  color: black;
 }
 /* End Quyen's part */
 
 .navbar-brand .uil {
   font-size: 40px;
+  color: #ffc200;
 }
 
 p {
@@ -185,7 +186,6 @@ b, strong {
 .navbar-brand {
   font-weight: bold;
 }
-
 .navbar-expand-sm .navbar-nav .nav-link {
   padding: 0 20px;
 }
@@ -204,6 +204,7 @@ b, strong {
   position: absolute;
   top: 100%;
   content: attr(data-hover);
+  color: #ffc200;
   transform: translate3d(0, 0, 0);
 }
 
@@ -435,18 +436,6 @@ b, strong {
 .contact-form .form-control:hover, .contact-form .form-control:focus {
   border-color: #ffc200;
 }
-.contact-form .submit-btn {
-  background: #ffc200;
-  border-radius: 50px;
-  color: #ffffff;
-  font-weight: bold;
-  border: 0;
-  cursor: pointer;
-  transition: all 0.4s ease;
-}
-.contact-form .submit-btn:hover {
-  background: #474559;
-}
 
 .contact-info {
   /* Start Quyen's part */
@@ -456,7 +445,7 @@ b, strong {
   position: relative;
   bottom: 8px;
   /* Start Quyen's part */
-  height: 510px;
+  height: 280px;
   /* End Quyen's part */
 }
 .contact-info p, .contact-info a {
